@@ -34,12 +34,12 @@ by Heath Blandford
     --background-primary-alt: var(--dark2);
     --background-secondary: var(--dark0);
     --background-secondary-alt: var(--dark2);
-    --text-normal: var(--light2);
+    --text-normal: var(--light0);
     --text-faint: var(--light0);
     --text-muted: var(--light1);
-    --text-title-h1: var(--light0);
-    --text-title-h2: var(--purple);
-    --text-title-h3: var(--red);
+    --text-title-h1: var(--frost1);
+    --text-title-h2: var(--orange);
+    --text-title-h3: var(--purple);
     --text-title-h4: var(--green);
     --text-title-h5: var(--yellow);
     --text-title-h6: var(--orange);
@@ -144,12 +144,12 @@ body {
 /* bold color & font weight */
 .cm-strong {
     font-weight: 700 !important;
-    color: var(--purple)
+    color: var(--green)
 }
 
 /* italicized color & font weight */
 .cm-em {
-    color: var(--green);
+    color: var(--purple);
 }
 
 a,
@@ -561,4 +561,11 @@ input[type='checkbox']:checked {
 .side-dock-plugin-panel-inner {
     padding-right: 6px;
     padding-left: 6px;
+}
+
+mjx-container, .MathJax {
+    background: var(--dark0);
+    border-radius: 10px; 
+    font-size: 1.2rem;
+    font-family: monospace;
 }
